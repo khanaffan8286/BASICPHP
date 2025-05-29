@@ -3,8 +3,8 @@
 include 'conn.php';
 
 if(isset($_POST['login'])){
-   $user =   $_POST['email'];
-   $pass = $_POST['pass'];
+   $user =   mysqli_real_escape_string($conn,$_POST['email']);
+   $pass = mysqli_real_escape_string($conn,$_POST['pass']);
 
 
 
@@ -30,5 +30,6 @@ if(isset($_POST['login'])){
     }
     else{
         header("Location: login.php");
+        exit();
     }
 }

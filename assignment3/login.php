@@ -26,12 +26,12 @@ else{
     <h2 class="text-2xl font-bold mb-6 text-center text-gray-800">Welcome</h2>
     <form action="loginprocess.php" method="POST" class="space-y-6">
       <div>
-        <label for="username" class="block text-gray-700 font-medium mb-2">Username</label>
+        <label for="username" class="block text-gray-700 font-medium mb-2">Email</label>
         <input
-          type="text"
+          type="eamil"
           id="username"
           name="email"
-          placeholder="Enter your username"
+          placeholder="Enter your eamil"
           required
           class="w-full px-4 py-3 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
         />

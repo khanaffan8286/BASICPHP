@@ -14,3 +14,22 @@ $value = 10
 do{
     echo "the value is $value";
 } while($value <10);
+
+
+3.Session (To store data in the browser to tansfer data from page to page)[syntax:$_session['']  
+// before this we need to start the session  session_start()  and for end the close the session  session_unset()]
+
+
+4.For cheking anything in the database we need mysqli_fetch_aasoc();
+
+
+5.For connecting database ( $con = mysqli_connect('localhost','root','this is for password and for local it will blank','databasename')
+
+
+6.For Insertion of the data we need mysql querry for that eg: $sql = "INSERT INTO database_name (data that you wnated to insert)"
+
+7. Same for update eg: $sql  =  "Update database_name set name of the raw = you wanted to " 
+
+8. Delete // $sql = "DELETE FROM form WHERE id = '$id'";
+
+9. after this method we need to run a qurrey (mysqli_qurry($conn,$sql))
