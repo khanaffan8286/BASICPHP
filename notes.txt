@@ -33,3 +33,9 @@ do{
 8. Delete // $sql = "DELETE FROM form WHERE id = '$id'";
 
 9. after this method we need to run a qurrey (mysqli_qurry($conn,$sql))
+
+10. Sql Injection you can use this for login any unsecure login page( 'or '1' = '1 ) it will logged in you 
+    To prevent with this we uses ( mysqli_real_escape_string($conn,$_post['variablename']);  )
+
+11. Cookie are use to store data in the browser to use data on multiple vage in the form of key value
+    eg : setcookie(  "username","value" , "time()+ seconds ", "path"  );
