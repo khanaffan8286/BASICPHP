@@ -1,3 +1,5 @@
+Php stands for hyper text preprocceser its an widly used open source server side scripting language. used in webdevlopment.
+
 1. While loop is used for printing or implementing multiple value for example if you want to implement 1 to 10 number
 
 $value = 1;
@@ -39,3 +41,48 @@ do{
 
 11. Cookie are use to store data in the browser to use data on multiple vage in the form of key value
     eg : setcookie(  "username","value" , "time()+ seconds ", "path"  );
+
+12. Constructer allow user to intiliaze a objects properties upon creation of project.
+
+13. Deconstructer is used to when an object it closed or destroyed.ex.  echo "\nConnection closed.";
+
+14. Encapsulation is binding the data and methods in a class and controlling them through access modifier ( public private protected)
+ex : Think of a car's engine. You don't need to know how the engine works internally - you just press the gas pedal to make it go faster. The engine's complex parts are "hidden" from you.
+ex:    class BankAccount {
+                        private bankbalnce = 12000;
+          public function deposit (){}
+
+15. Abstraction hidding the complex implementaion details and showing the essintial feature only.
+you know what it does but not nessory to know how its does 
+ex: you chanegs the channnel using tv remote you know channel changes but how you don't need to know.
+abstract class Vehicle {
+    abstract public function start(); // Must be implemented by child classes
+    
+    public function stop() {
+        echo "Vehicle stopped";
+    }
+}
+
+16. Inhertance a class has inhertitante property from another class.creating a parent child realtion ship.
+
+class Animal {
+    public $name;
+    
+    public function eat() {
+        echo $this->name . " is eating";
+    }
+}
+
+class Dog extends Animal {
+    public function bark() {
+        echo $this->name . " is barking";
+    }
+}
+
+17. polymorephism the same method have smae name but wor diff.
+ink of different animals making sounds. When you say "make a sound," a dog barks, a cat meows, and a cow moos - same action, different results.
+interface Shape {
+    public function calculateArea();
+}
+class Circle implements Shape {
+class Rectangle implements Shape {
