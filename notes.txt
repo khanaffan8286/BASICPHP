@@ -3,10 +3,10 @@ Php stands for hyper text preprocceser its an widly used open source server side
 1. While loop is used for printing or implementing multiple value for example if you want to implement 1 to 10 number
 
 $value = 1;
-(while($value <10){
+while($value <10){
     echo $value;
     $value++;
-})
+}
 
 
 2. do while loop it is used pring atleast one time if the loop is not anything it print atleast one time mean
