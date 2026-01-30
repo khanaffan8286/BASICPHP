@@ -9,7 +9,7 @@ while($value <10){
 }
 
 
-2. do while loop it is used pring atleast one time if the loop is not anything it print atleast one time mean
+2. do while loop it is used print atleast one time if the loop is not anything it print atleast one time mean
 
 $value = 10
 
